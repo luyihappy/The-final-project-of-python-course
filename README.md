@@ -19,6 +19,8 @@ Description of the directory layout.
 - `environment.yml` Defines the required Python packages using conda. Try to pin to specific major versions of your
   dependencies as their behavior may change in the future.
   The environment is currently called `my_environment` and you'll likely want to rename it to something less generic.
+- `temperature_data.csv` This is the data from which we make the regression analysis.
+  
 
 
 ## Requirements
