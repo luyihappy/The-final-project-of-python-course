@@ -20,6 +20,7 @@ Description of the directory layout.
   dependencies as their behavior may change in the future.
   The environment is currently called `my_environment` and you'll likely want to rename it to something less generic.
 - `temperature_data.csv` This is the data from which we make the regression analysis.
+- `The_final_project_Temperature_Regression.ipynb`  This is the jupyter notebook document of the temperature regression.
   
 
 
@@ -35,4 +36,8 @@ source activate my_environment
 jupyter-lab
 ```
 
+
+## Risk assessment
+
+The code might not be usable in the future package breaking. The method to solve this problem is to set the code running environment according to the respective versions given in the file 'environment.yml'.
 
