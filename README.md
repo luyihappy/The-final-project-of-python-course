@@ -41,3 +41,8 @@ jupyter-lab
 
 The code might not be usable in the future package breaking. The method to solve this problem is to set the code running environment according to the respective versions given in the file 'environment.yml'.
 
+## Motivation
+
+The python version in the 'environment.yml' is specified to the minor version which ensures the compatibility.
+
+
